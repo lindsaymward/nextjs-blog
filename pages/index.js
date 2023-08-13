@@ -29,7 +29,7 @@ export default function Home({ allPostsData }) {
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
-            <li classname={utilStyles.listItem} key={id}>
+            <li className={utilStyles.listItem} key={id}>
               {title}
               <br />
               {id}
